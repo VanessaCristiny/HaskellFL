@@ -1,0 +1,2 @@
+flip (\x y -> x - y) 2 6
+flip (\x y -> x / y) 2 4

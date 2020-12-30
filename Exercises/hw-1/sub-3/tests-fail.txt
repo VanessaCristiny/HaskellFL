@@ -1,0 +1,4 @@
+dropWhile (\x -> x > 5) [6,7,4,3]
+dropWhile (\x -> x == 5) [5,6,7]
+dropWhile (\x -> x <= 6) [5,6,7]
+dropWhile (\x -> False) ["Hamilton", "Vettel"]

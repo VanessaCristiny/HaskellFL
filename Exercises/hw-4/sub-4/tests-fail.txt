@@ -1,0 +1,6 @@
+maxSumLength (4,2,3) 3
+maxSumLength (1,2,3) 0
+maxSumLength (7,1,4) 5
+maxSumLength (8,2,10) 4
+maxSumLength (5,9,7) 1
+maxSumLength (3,4,5) 2

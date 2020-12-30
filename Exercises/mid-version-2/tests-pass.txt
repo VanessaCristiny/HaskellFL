@@ -1,0 +1,5 @@
+mid 3 3 5 
+mid 1 2 3
+mid 3 2 1
+mid 5 5 5
+mid 5 3 4

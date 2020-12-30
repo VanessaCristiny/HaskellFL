@@ -1,0 +1,4 @@
+isValid ["0"]
+isValid ["8"]
+isValid ["2", "4", "2", "4"]
+isValid ["2", "4", "6", "4"]

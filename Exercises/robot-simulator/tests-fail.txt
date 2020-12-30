@@ -1,0 +1,3 @@
+simulate (Robot West  (1,0) ) ['A', 'R', 'L', 'A', 'R', 'L', 'L'] 
+simulate (Robot West  (0,-1) ) ['R', 'L', 'A', 'A'] 
+simulate (Robot North  (0,0) ) ['L', 'A', 'A']

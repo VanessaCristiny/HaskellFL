@@ -1,0 +1,4 @@
+add 10 "Vanessa" []
+add 9 "Vanessa" [(6, ["Pedro", "JP"]), (7, ["John"]), (8, ["Mary"])]
+add 1 "Sebastian" [(6, ["Pedro"])]
+add 8 "Sebastian" [(6, ["Pedro"]), (6, ["David"])]

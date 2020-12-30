@@ -1,0 +1,5 @@
+ageOn Earth 30
+ageOn Mercury 80
+ageOn Mars 32
+ageOn Jupiter 12
+ageOn Saturn 33

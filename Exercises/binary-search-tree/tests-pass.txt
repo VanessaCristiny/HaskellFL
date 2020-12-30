@@ -1,0 +1,4 @@
+insert 8 Empty
+insert 7 (BST Empty 9 Empty)
+insert 1 (BST (BST Empty 5 Empty) 9 Empty)
+insert 12 (BST (BST (BST Empty 1 Empty) 5 Empty) 9 Empty)

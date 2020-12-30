@@ -1,0 +1,4 @@
+sumOfMultiples [4,5] 6
+sumOfMultiples [] 5
+sumOfMultiples [2,5] 3
+sumOfMultiples [0,2,5] 3

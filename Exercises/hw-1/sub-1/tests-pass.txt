@@ -1,0 +1,5 @@
+dropWhileClone isSpace ["v", " "]
+dropWhileClone isSpace ["v", ""]
+dropWhileClone isSpace ["y"]
+dropWhileClone isSpace ["p", "e"]
+dropWhileClone isSpace []

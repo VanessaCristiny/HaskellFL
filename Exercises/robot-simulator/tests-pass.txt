@@ -1,0 +1,6 @@
+simulate (Robot North (0,0)) ['A', 'R', 'L', 'A', 'R', 'L', 'L']
+simulate (Robot East  (0,0)) ['A', 'R', 'L', 'A', 'R', 'L', 'L'] 
+simulate (Robot South (3,2)) ['A', 'R', 'L', 'A', 'R', 'L', 'L']
+simulate (Robot North (-1,3) ) ['R', 'L', 'A', 'A'] 
+simulate (Robot East  (-1,-2)) ['R', 'L', 'A', 'A']
+simulate (Robot South (8,10) ) ['R', 'L', 'A', 'A'] 

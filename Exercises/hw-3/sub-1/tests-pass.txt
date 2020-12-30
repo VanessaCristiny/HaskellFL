@@ -1,0 +1,3 @@
+separateTuplesByType [(1,1), (3,3), (8,8)]
+separateTuplesByType [(1,1)]
+separateTuplesByType [(5,5), (10,10)]

@@ -1,0 +1,3 @@
+triangleType 3 4 7
+triangleType 3 3 6
+triangleType 5 3 8

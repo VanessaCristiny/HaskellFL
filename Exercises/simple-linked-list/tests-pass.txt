@@ -1,0 +1,2 @@
+myLength (LinkedList 1 Nul)
+myLength Nul

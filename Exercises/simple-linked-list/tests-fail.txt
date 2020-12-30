@@ -1,0 +1,4 @@
+myLength (LinkedList 1 (LinkedList 2 (LinkedList 3 Nul)))
+myLength (LinkedList 1 (LinkedList 2 Nul))
+myLength (LinkedList 1.5 (LinkedList 2.8 Nul))
+myLength (LinkedList "Va" (LinkedList "Galo" Nul))

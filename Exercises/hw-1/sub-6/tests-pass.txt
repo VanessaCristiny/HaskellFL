@@ -1,0 +1,4 @@
+toTuples [1,2,3] [4,5,6]
+toTuples [1] [4] 
+toTuples [13,7] [4,6] 
+toTuples [] []

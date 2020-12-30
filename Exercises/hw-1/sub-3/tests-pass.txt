@@ -1,0 +1,5 @@
+dropWhile (\x -> x < 10) [2,5]
+dropWhile (\x -> x /= 0) []
+dropWhile (\x -> False) []
+dropWhile (\x -> x == 0) [0,0,0]
+dropWhile (\x -> True) ["Hamilton", "Vettel"]

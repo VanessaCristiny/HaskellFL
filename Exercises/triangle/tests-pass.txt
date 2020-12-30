@@ -1,0 +1,5 @@
+triangleType 3 4 5
+triangleType 3 1 5
+triangleType 0 5 5
+triangleType 5 5 5
+triangleType 3 3 5

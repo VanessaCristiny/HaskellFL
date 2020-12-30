@@ -1,0 +1,3 @@
+value [Black, Brown, Red, Orange]
+value [Violet, Blue, Violet]
+value [Grey, Yellow, Green]
