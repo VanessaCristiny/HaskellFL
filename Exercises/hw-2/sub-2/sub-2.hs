@@ -20,7 +20,8 @@ module Main where
     idade (Pessoa n i id) = i
 
     -- 6
-    remdups l = foldr remdupsReducer [] l
-    remdupsReducer a b = if (length b > 0) && (a == head b) -- BUG
-        then b 
-        else a:b
+    remdupsReducer [] = []
+    remdupsReducer (x:[]) = [x]
+    remdupsReducer (x:(y:xs)) = if (x == y) 
+        then (x:xs) 
+        else (y:xs) -- BUG

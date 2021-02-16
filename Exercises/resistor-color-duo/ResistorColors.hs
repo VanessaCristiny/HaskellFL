@@ -32,7 +32,7 @@ module ResistorColors (Color(..), value) where
       Blue   -> 6
       Violet -> 7
       Grey   -> 8
-      White  -> 0 -- BUG
+      White  -> 9 -- BUG
 
   f x = x * 10
 

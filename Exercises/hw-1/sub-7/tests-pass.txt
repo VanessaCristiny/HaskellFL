@@ -1,4 +1,4 @@
 break (\x -> x == 6) [1,2,3,4,5]
 break (\x -> (x - 2) > 0) [1,1,2]
-break (\x -> x < 0) [3,-9]
 break (\x -> x == 0) []
+break (\x -> False) [-1,3]

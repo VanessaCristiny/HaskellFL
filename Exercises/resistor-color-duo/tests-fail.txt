@@ -1,4 +1,4 @@
-value [Red, Orange]
+value [Red, Orange, White]
 value [Black, White, Brown]
 value [Violet, Green, White]
-value [Grey, Yellow, Blue]
+value [White, Grey, Yellow, Blue]

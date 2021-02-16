@@ -16,7 +16,7 @@ module SpaceAge where
         in 
             case planet of 
                 Mercury -> 0.24084670 * earthYear
-                Venus   -> 0.61519725 * earthYear -- BUG
+                Venus   -> 1.61519726 * earthYear -- BUG
                 Earth   -> 1.00000000 * earthYear
                 Mars    -> 1.88081580 * earthYear
                 Jupiter -> 11.8626150 * earthYear
