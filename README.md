@@ -32,3 +32,21 @@ For instance:
 ```
 cabal run HaskellFL Exercises/raindrops/Raindrops.hs Exercises/raindrops/tests-pass.txt Exercises/raindrops/tests-fail.txt
 ```	
+
+The command above will ask the method you want to use. Another way to use the tool is to specify the method beforehand.
+
+```
+cabal run HaskellFL Exercises/raindrops/Raindrops.hs Exercises/raindrops/tests-pass.txt Exercises/raindrops/tests-fail.txt tarantula
+```	
+
+```
+cabal run HaskellFL Exercises/raindrops/Raindrops.hs Exercises/raindrops/tests-pass.txt Exercises/raindrops/tests-fail.txt ochiai
+```	
+
+We can also run the code with the test cases.
+
+```
+cabal run HaskellFL Exercises/raindrops/Raindrops.hs Exercises/raindrops/tests-pass.txt Exercises/raindrops/tests-fail.txt run convert
+```	
+
+
