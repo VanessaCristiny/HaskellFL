@@ -132,7 +132,34 @@ module Main where
 		let resO = List.reverse (List.sort (ochiai (Map.toList groupedMap2) (length tests_fail)))
 
 		print "## HaskellFL ##"
-		userInterface resT resO
+		if length args == 3
+			then userInterface resT resO
+			else do
+				case (args !! 3) of 
+					"tarantula" -> do 
+						print "Tarantula: "
+						putStrLn $ prettyPrint (removeRepeatedLine resT [])					
+					"Tarantula" -> do 
+						print "Tarantula: "
+						putStrLn $ prettyPrint (removeRepeatedLine resT [])
+					"ochiai" -> do 
+						print "Ochiai: "
+						putStrLn $ prettyPrint (removeRepeatedLine resO [])					
+					"Ochiai" -> do 
+						print "Ochiai: "
+						putStrLn $ prettyPrint (removeRepeatedLine resO [])
+					"run" -> do
+						let functionName = (args !! 3)
+						print "Passing Tests:"
+						putStrLn (buildRun functionName tests_pass newEnv)
+						print "Failing Tests:"
+						putStrLn (buildRun functionName tests_fail newEnv)
+					_ -> return ()
+
+	buildRun _ [] env = ""
+	buildRun name (ex:exs) env = let (res, _) = runEval env name ex
+		in "Output: " ++ (show res) ++ "\n" ++ buildRun name exs env
+
 
 	userInterface resT resO = do
 		print "Enter 1 for Tarantula, 2 for Ochiai or 3 to quit: "

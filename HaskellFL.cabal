@@ -28,4 +28,5 @@ executable HaskellFL
                       ,formatting
                       ,text
   build-tools:         alex, happy  
+  ghc-options: -Wtabs
   default-language:    Haskell2010

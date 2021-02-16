@@ -32,7 +32,7 @@ module PreludeOps where
         show (CBool n l) = show n 
         show (CInt n l) = show n 
         show (CFloat n l) = show n 
-        show (CString n l) = n 
+        show (CString n l) = "\"" ++ n ++ "\""
         show (CChar c l) = show c
         show (CFail p) = "Fail" 
         show (Pack0 nm pos) = nm
